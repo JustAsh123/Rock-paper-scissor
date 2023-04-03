@@ -47,10 +47,13 @@ function is_win(user, comp){
 function show_on_screen(user, comp){
     is_winning = is_win(user,comp);
     if (is_winning == "win"){
-        document.getElementById("result").innerHTML = "You Win!"
+        document.getElementById("result").style.color = "green";
+        document.getElementById("result").innerHTML = "You Win!";
     } else if (is_winning == "lose"){
-        document.getElementById("result").innerHTML = "You Lose!"
+        document.getElementById("result").style.color = "red";
+        document.getElementById("result").innerHTML = "You Lose!";
     }else{
-        document.getElementById("result").innerHTML = "Draw!"
+        document.getElementById("result").style.color = "#d4d636";
+        document.getElementById("result").innerHTML = "Draw!";
     }
 }

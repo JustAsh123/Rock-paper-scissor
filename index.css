@@ -1,0 +1,24 @@
+h1{
+    color: lightcoral;
+    font-size: 4.5rem;
+}
+
+h4{
+    color: white;
+    font-size: 2rem;
+}
+
+h2{
+    font-size:3.5rem;
+    color: white;
+}
+
+button{
+    font-size: 4rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-width: 6px;
+    border-style: solid;
+    border-color: limegreen;
+}
